@@ -2,11 +2,14 @@ import React from 'react';
 import {View, StatusBar, StyleSheet} from 'react-native';
 import NearbyEventList from './src/components/NearbyEventList';
 import ProfileModalScreen from './src/components/profileModal';
+import BubblesWithImage from './src/components/BubblesWithImages';
+
 const App = () => {
   return (
     <View style={styles.container}>
       {/* <NearbyEventList /> */}
-      <ProfileModalScreen />
+      {/* <ProfileModalScreen /> */}
+      <BubblesWithImage />
       <StatusBar barStyle={'dark-content'} />
     </View>
   );
